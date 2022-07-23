@@ -1,0 +1,152 @@
+/**********************************/
+/********** General CSS ***********/
+/**********************************/
+body {
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+a {
+    color: #34a2f4;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #353535;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    color: #353535;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #353535;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+.title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.article-card img{
+    height: 250px;
+}
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #353535;
+    color: #ffffff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top:hover {
+    background: #34a2f4;
+}
+
+.back-to-top i {
+    padding-top: 12px;
+    color: #ffffff;
+}
+
+
+/**********************************/
+/********* Form Input CSS *********/
+/**********************************/
+.form-control,
+.custom-select {
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    color: #666666;
+    border: 1px solid #353535;
+    border-radius: 0;
+    margin-bottom: 15px
+}
+
+.form-control:focus,
+.custom-select:focus {
+    box-shadow: none;
+    border-color: #34a2f4;
+}
+
+.custom-radio,
+.custom-checkbox {
+    margin-bottom: 15px;
+}
+
+.custom-radio .custom-control-label::before,
+.custom-checkbox .custom-control-label::before {
+    border-color: #353535;
+    border-radius: 0;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    color: #ffffff;
+    background: #34a2f4;
+}
+
+button.btn {
+    color: #353535;
+    background: #ffffff;
+    border: 1px solid #353535;
+    border-radius: 0;
+}
+
+button.btn:hover {
+    color: #ffffff;
+    background: #34a2f4;
+    border-color: #34a2f4;
+}
+
+
+/**********************************/
+/********* Top Header CSS *********/
+/**********************************/
+
+
+.autocomplete-items {
+    margin: auto;
+    width: 96%;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #f3f3f3;
+  }
+  .autocomplete-items a:hover{
+    background-color: #c9c9c9;
+  }
+  .autocomplete-items li{
+    display: block;
+    padding: 5px;
+  }
+  .autocomplete-items ul {
+    text-align: left;;
+  }

@@ -107,19 +107,6 @@ h6 {
     background: #34a2f4;
 }
 
-button.btn {
-    color: #353535;
-    background: #ffffff;
-    border: 1px solid #353535;
-    border-radius: 0;
-}
-
-button.btn:hover {
-    color: #ffffff;
-    background: #34a2f4;
-    border-color: #34a2f4;
-}
-
 
 /**********************************/
 /********* Top Header CSS *********/
@@ -149,4 +136,14 @@ button.btn:hover {
   }
   .autocomplete-items ul {
     text-align: left;;
+  }
+
+  .product-box .card{
+    width: 11rem;
+  }
+  .product-box .card img{
+    height: 114px;
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
   }

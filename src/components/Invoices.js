@@ -201,6 +201,9 @@ export const Invoices = () => {
                     setSalepersonName('')
                     setDate('')
                     setMyProducts([])
+
+                    let chartData = await dispatch(fetchChartData(timerange)).unwrap()
+                    createChartOption(chartData,timerange);
                 }
                 
         

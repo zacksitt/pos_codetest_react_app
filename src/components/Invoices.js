@@ -275,7 +275,7 @@ export const Invoices = () => {
                                 <label for="inputPassword" class="col-sm-3 col-form-label">Products</label>
                                 <div class="col-sm-7">
                                     <input type="text" class="form-control" id="inputPassword"  value={produc_name} placeholder="products"  onChange={onProductNameChange}/>
-                                
+                                    Ex: iPhone
                                     <div>
                                         <div className="autocomplete-items">
                                             <ul className="list-group">
